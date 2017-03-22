@@ -2,8 +2,6 @@
 ## Description
 ## Backsup the tenant data from one cite and 
 ## transfer to other and builds the tenant
-## Date: Jan 27th 2017
-## @contact: ME Lab Richardson
 
 ## Requirements:
 ## 1. Need to copy the public key into the remote host
@@ -15,7 +13,7 @@
 ##      password
 ## How to run:
 ##    python Back_up_project.py -t <tenant name> -i <remote undercloud ip> -u <username> -p <password>
-## Example: python Back_up_project.py -t ukumar -i 166.34.86.114 -u admin -p password
+## Example: python Back_up_project.py -t ukumar -i 10.10.0.0 -u admin -p password
 
  
 import sys
