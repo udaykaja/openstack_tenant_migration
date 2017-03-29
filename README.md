@@ -6,5 +6,6 @@ Requirements:
 4. Make sure remote host is reachable and can ssh without a  password
 
 # How to run:
-  python Back_up_project.py -t <tenant name> -i <remote undercloud ip> -u <username> -p <password>
+1.  python Back_up_project.py -t <tenant name> -i <remote undercloud ip> -u <username> -p <password>
+
 Example: python Back_up_project.py -t ukumar -i 10.10.0.0 -u admin -p password
